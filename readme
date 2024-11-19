@@ -1,0 +1,33 @@
+It took me some time to understand each type of the traversal and how to put them into code. I tried using while loop but eventually found recursive to be more straightforward and code-efficient.
+
+---Sample Output---
+
+Small Tree:
+Preorder: [1, 2, 3]
+Inorder: [2, 1, 3]
+Postorder: [2, 3, 1]
+Level order: [1, 2, 3]
+
+Larger Tree:
+Preorder: [1, 2, 4, 5, 6, 3]
+Inorder: [4, 2, 6, 5, 1, 3]
+Postorder: [4, 6, 5, 2, 3, 1]
+Level order: [1, 2, 3, 4, 5, 6]
+
+Skewed Tree:
+Preorder: [1, 2, 3, 4, 5]
+Inorder: [5, 4, 3, 2, 1]
+Postorder: [5, 4, 3, 2, 1]
+Level order: [1, 2, 3, 4, 5]
+
+Only Root Tree:
+Preorder: [1]
+Inorder: [1]
+Postorder: [1]
+Level order: [1]
+
+Empty Tree:
+Preorder: []
+Inorder: []
+Postorder: []
+Level order: []
